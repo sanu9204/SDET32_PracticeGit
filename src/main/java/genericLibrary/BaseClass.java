@@ -1,5 +1,7 @@
 package genericLibrary;
 
+
+
 import java.util.Arrays;
 
 import org.openqa.selenium.WebDriver;
@@ -14,6 +16,7 @@ public class BaseClass {
 @BeforeClass
 public void bcConfig() {
 	WebDriverManager.chromedriver();
+	
 	ChromeOptions options = new ChromeOptions();
 	//disabling notification
 	options.addArguments("disable-notifications");
