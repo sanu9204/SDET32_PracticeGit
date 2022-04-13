@@ -15,6 +15,7 @@ public class BaseClass {
 public void bcConfig() {
 	WebDriverManager.chromedriver();
 	ChromeOptions options = new ChromeOptions();
+	//disabling notification
 	options.addArguments("disable-notifications");
 	options.setExperimentalOption("excludeSwitches",Arrays.asList("disable-popup-blocking"));
     driver=new ChromeDriver(options);
