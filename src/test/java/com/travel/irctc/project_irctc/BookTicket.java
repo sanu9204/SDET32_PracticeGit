@@ -7,7 +7,7 @@ import genericLibrary.BaseClass;
 public class BookTicket extends BaseClass {
 @Test
 public void bookTicket() {
-	
+	System.out.println("booking ticket");
 	
 }
 }
